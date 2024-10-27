@@ -28,6 +28,7 @@ async function run() {
 		})
 
 		writeStream.on("finish", () => {
+			console.log("FINISHED")
 			writeStream.close();
 			fileHandler.close();
 		})

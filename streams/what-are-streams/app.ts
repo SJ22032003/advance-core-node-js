@@ -21,6 +21,8 @@ console.log(writeStream.writableHighWaterMark)
 				}
 			})
 			// MEANS THAT write stream BUFFER IS FULL CAN CANNOT TAKE MORE DATA FROM read stream
+			// WHY IS THIS IMPORTANT ? BECUASE IN GENERALLY READING IS MUCH FASTER THAN WRITING IN DISK
+			// SO MUCH MORE DATA CAN GET CLOGGED THAN IT CAN BE WRITTEN, SO ITS IMPORTANT
 			if(!ok) readFile.pause();
 		})
 
