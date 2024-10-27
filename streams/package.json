@@ -1,0 +1,16 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "all about streams",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shobhit Jaryal",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.8.1"
+  }
+}
