@@ -1,6 +1,7 @@
 {
-  "compilerOptions": {
-      "src": ["./*/**.ts"],
-      "types": [ "node" ],
-      "typeRoots": [ "./node_modules/@types", "../node_modules/@types", "../../node_modules/@types" ]
-}
+    "compilerOptions":
+    {
+        "src": ["./*/**.ts"],
+        "types": ["node"],
+        "typeRoots": ["./node_modules/@types", "../node_modules/@types", "../../node_modules/@types"]
+    }
