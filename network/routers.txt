@@ -1,0 +1,11 @@
+Just like switches connect multiple computers in local network, a Router connects multiple switches
+with other, basically creating a huge network of computers.
+
+And router is physical connection, which means routers are sending your data through cable and wires,
+around the world, from deep in the ocean using underwater optic fiber wires.
+
+When you connect to any WiFi, you are basically connecting yourself to a router.
+
+How you get the internet?
+ISP (Internet service provider), they basically help you to connect with router and connect to the internet.
+

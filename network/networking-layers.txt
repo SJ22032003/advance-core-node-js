@@ -1,0 +1,25 @@
+1.	Physical Layer ----
+	Most low level layer (Physical | Cables), this layer contains the bits/binary for the data.
+	This layer doesn't know what type of data is and where its destination is.
+	We are just passing the 'Bits' here.
+
+2.	Data Link Layer ----
+	In this layer, data is move in 'Frame'. This layer contains switches.
+	This layer contains MAC address and the destination.
+
+3.	Network Layer ----
+	Network/Internet Layer is shares the data in 'Packets' to the routers.
+	With the help of IP address its able to get the destination.
+	Data is passed as Packets.
+	IP address help to route the traffic to its destination.
+
+4.	Transport Layer ----
+	When data is moving in this layer we called it 'Segments'.
+	This layer make sure that the packet which you are sending has transport Properly and there are no packet loss (happens lot).
+	Packet may get loss and transport layer helps to fix this issue.
+
+5.	Application Layer ----
+	Information moving here is called 'Data'.
+	This is where we setup our HTTP, SMTP or FTP server.
+	We can make sense out the data here and work on it.
+	Majority of back-end applications work on this layer.

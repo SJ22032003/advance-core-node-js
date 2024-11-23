@@ -1,0 +1,21 @@
+In Old times we had to share data between multiple computers using physical hardware.
+Such one we have currently is a Network Card (which now comes embedded in most computers)
+
+MAC Address
+The physical network cards comes with unique (always) address we called as MAC address or Media Access Control
+And this helps network cards to basically understand which computer it is connected to.
+MAC Address is unique 12 byte hexadecimal value.
+Also know as hardware address
+example ->  a7:10:b4:f2:34:b2
+
+Switch
+A switch is basically a physical board where computers can connect to and share data between them.
+
+So my computer (C1) will send data like this to from network card
+	source - My MAC Address
+	destination - MAC Address of receiver
+	data - 01010101.... (data we are sending)
+
+	my computer --> SWITCH --> friend's computer
+
+This goes to the Switch and it will check the destination and route the data accordingly.
