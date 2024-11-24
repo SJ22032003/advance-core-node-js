@@ -1,0 +1,15 @@
+{
+  "name": "network",
+  "version": "1.0.0",
+  "description": "learn deep about network in nodejs",
+  "main": "app.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shobhit Jaryal",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.9.3"
+  }
+}

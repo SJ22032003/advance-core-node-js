@@ -13,14 +13,15 @@
 	Data is passed as Packets.
 	IP address help to route the traffic to its destination.
 
-4.	Transport Layer ----
+4.	Transport Layer ---- TCP/UDP
 	When data is moving in this layer we called it 'Segments'.
 	This layer make sure that the packet which you are sending has transport Properly and there are no packet loss (happens lot).
 	Packet may get loss and transport layer helps to fix this issue.
+	TCP -> Transmission Control Protocol, cares lot about the data. And make sure that data is delivered properly. Slow but reliable.
+	UDP -> User Datagram Protocol, doesn't care about the data. Fast but not reliable. Packet may get loss. Good for video streaming.
 
 5.	Application Layer ----
 	Information moving here is called 'Data'.
 	This is where we setup our HTTP, SMTP or FTP server.
 	We can make sense out the data here and work on it.
 	Majority of back-end applications work on this layer.
-	
